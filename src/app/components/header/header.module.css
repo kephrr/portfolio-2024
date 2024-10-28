@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.contain{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerItem, .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links{
+    gap: 10px;
+}
+.headerItem{
+    width: 20%;
+    gap: 10px;
+}
+.headerItem a:hover{
+    text-decoration: underline;
+}
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.8rem;
+    padding: 2px 2px 2px 10px;
+    background-color: #efefef;
+    border-radius: 2rem;
+}

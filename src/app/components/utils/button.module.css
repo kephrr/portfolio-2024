@@ -1,0 +1,24 @@
+.regularButton{
+    background-color: white;
+    padding: 15px 30px;
+    color: #141424;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+.regularButton:hover{
+    cursor: pointer;
+}
+
+.copyButton{
+    background-color: white;
+    padding: 15px 30px;
+    color: #141424;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+.copyButton:hover{
+    cursor:grabbing;
+}
+
