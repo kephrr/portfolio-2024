@@ -1,0 +1,62 @@
+.person{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 70px;
+    position: relative;
+}
+.circleProfile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+    border-radius: 65px;
+    box-shadow: 0 9px 41px -14px rgba(0,0,0,0.75);
+}
+.imgProfile{
+    height: 120px;
+    width: auto;
+    border-radius: 60px;
+}
+
+.regularButton{
+    background-color: white;
+    padding: 15px 30px;
+    color: #464649;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bold;
+
+    rotate: -7deg;
+    position: absolute;
+
+    bottom: -50px;
+    animation: jumpy 2s ease-in-out infinite;
+}
+@keyframes jumpy {
+    0%{
+        bottom: -50px;
+    }
+    50%{
+        bottom: -35px;
+    }
+    100%{
+        bottom: -50px;
+    }
+}
+
+.heroText{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.heroText h1{
+    text-align: center;
+    width: 40%;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}

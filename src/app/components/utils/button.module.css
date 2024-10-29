@@ -1,19 +1,26 @@
+
 .regularButton{
     background-color: white;
+    color: #171717;
+}
+.regularButtonDark{
+    background-color: #171717;
+    color:  white;
+}
+.regularButton, .regularButtonDark{
     padding: 15px 30px;
-    color: #141424;
     border: none;
     border-radius: 2rem;
     font-weight: bold;
 }
-.regularButton:hover{
+.regularButton:hover, .regularButtonDark:hover{
     cursor: pointer;
 }
 
 .copyButton{
     background-color: white;
     padding: 15px 30px;
-    color: #141424;
+    color: #171717;
     border: none;
     border-radius: 2rem;
     font-weight: bold;

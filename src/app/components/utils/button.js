@@ -3,10 +3,9 @@ import globals from "../../globals.css";
 
 
 
-function RegularButton({text}){
-    return <button className={styles.regularButton}
+function RegularButton({text,mode}){
+    return <button className={mode?styles.regularButton:styles.regularButtonDark}
         >{text}</button>
-
 }
 
 export default RegularButton;

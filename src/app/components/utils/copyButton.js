@@ -12,9 +12,9 @@ function CopyButton(){
         navigator.clipboard.writeText(textToCopy)
             .then(() => {
                 // Afficher Copié! pendant 3 secondes lorsque le contenu a été copié
-                setText('Copié!')
+                setText('Copied!')
                 const timer = setTimeout(() => {
-                    setText('Copier')
+                    setText('Copy')
                 }, 3000);
             })
             .catch(err => {

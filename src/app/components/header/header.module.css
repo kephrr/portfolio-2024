@@ -17,6 +17,7 @@
 }
 .links{
     gap: 10px;
+    font-size: .9rem;
 }
 .headerItem{
     width: 20%;

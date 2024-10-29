@@ -5,10 +5,11 @@ import globals from "../../globals.css";
 import CopyButton from "@/app/components/utils/copyButton";
 
 
-export default function Header() {
+function Header() {
     const TwitterLink = "https://x.com/KephJS";
     const BehanceLink = "https://www.behance.net/gallery/160429559/Kreative-PORTFOLIO-2023";
     const LinkedInLink = "https://www.linkedin.com/in/kephren-emmanuel-evoung-a54158252/";
+
     return (
         <header className={style.header}>
             <header className={style.contain}>
@@ -17,7 +18,7 @@ export default function Header() {
                         <p>kephrrv2@gmail.com</p>
                         <CopyButton ></CopyButton>
                     </div>
-                        <RegularButton text="CV">
+                        <RegularButton mode={true} text="CV">
                         </RegularButton>
                 </div>
                 <div className={style.headerItem}>
@@ -37,3 +38,5 @@ export default function Header() {
         </header>
     );
 }
+
+export default  Header;
