@@ -28,7 +28,7 @@ function Stepper() {
         }
     ]);
 
-    const [activeIndex, setActiveIndex] = useState(0);
+    const [activeIndex, setActiveIndex] = useState(-1);
     const [progress, setProgress] = useState(0);
     const [link, setLink] = useState("#");
     const videoRef = useRef(null);
@@ -60,18 +60,21 @@ function Stepper() {
         }
     }, [activeIndex]);
 
+
     // Comportement au survol et à la sortie du survol
     const handleMouseEnter = (index) => {
         setActiveIndex(index);
-        setLink("github.com/kephrr/"+steps[index].git)
+        setLink("https://github.com/kephrr/"+steps[index].git)
     };
 
+
     const handleMouseLeave = () => {
-        setActiveIndex(0);
+        setActiveIndex(-1);
         if (videoRef.current) {
             videoRef.current.pause();
             setProgress(0);
         }
+
     };
 
     // Template
