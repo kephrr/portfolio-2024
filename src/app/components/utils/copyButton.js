@@ -1,6 +1,5 @@
 import {useState} from "react";
 import styles from "@/app/components/utils/button.module.css";
-import globals from "../../globals.css";
 
 
 function CopyButton(){
@@ -18,13 +17,13 @@ function CopyButton(){
                 }, 3000);
             })
             .catch(err => {
-                console.error("Erreur lors de la copie : ", err);
+                console.error("Error while copying the e-mail adress : ", err);
             });
     };
 
     return <button onClick={handleCopy}
                 className={styles.copyButton}
-        >{text}</button>
+        >{text}</button>;
 }
 
 export default CopyButton;

@@ -1,7 +1,6 @@
 import style from "./hero.module.css";
-import globals from "../../globals.css";
 import RegularButton from "@/app/components/utils/button";
-import styles from "../utils/button.module.css";
+
 
 function Hero(){
     const linkImg = "pp.jpg";

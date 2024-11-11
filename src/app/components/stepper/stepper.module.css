@@ -1,0 +1,114 @@
+.stepper{
+    max-width: 90%;
+    width: 90%;
+    padding: 5%;
+    background-color: white;
+    box-shadow: 0 0 89px -43px rgba(0,0,0,0.6);
+    border: 1px solid white;
+    border-radius: 15px;
+    gap: 20px;
+    display: flex;
+}
+
+.opener{
+    flex: 1;
+}
+.viewer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.StepVideo{
+    height: auto;
+    width: 100%;
+    border-radius: 1rem;
+}
+.github{
+    background-color: white;
+    border: 1px solid  #2196f3;
+    color: #2196f3;
+    border-radius: 20px;
+    padding: 2px 6px;
+    margin-top: 10px;
+}
+.github:hover{
+    color: white;
+    border-color: #2196f3;
+    background-color: #2196f3;
+}
+
+.Step{
+    display: flex;
+    padding: 15px;
+    border: 1px solid var(--background);
+    border-radius: 15px;
+    margin: 10px 0;
+    transition: all 1s ease;
+}
+.Step:hover{
+    cursor: pointer;
+    background-color: rgba(33, 150, 243, 0.10);
+    border-color: rgb(33, 150, 243);
+}
+
+.head{
+    margin-right: 10px;
+}
+
+.id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--background);
+    border-radius: 5px;
+    color: var(--background);
+    margin-right: 10px;
+}
+
+.Step:hover .id{
+    background-color: #2196f3;
+    color: white;
+    border: none;
+}
+
+.Step .content{
+    width: auto;
+    font-size: 0;
+    font-weight: lighter;
+    transition: all .2s ease;
+}
+
+.Step:hover .content{
+    font-size: 1rem
+}
+
+.title{
+    font-weight: bold;
+    font-size: 1rem
+}
+.Step:hover .title{
+    font-size: 1.2rem
+}
+
+.progressBar{
+    height: 0;
+    border-radius: 5px;
+    margin: 15px 0 0;
+    background-color: #2196f3;
+    transition: width 0.1s ease;
+}
+
+.Step:hover .progressBar{
+    height: 5px;
+}
+
+.commentDev{
+    font-size: .75rem;
+    font-style: italic;
+    color: gray;
+}

@@ -1,6 +1,4 @@
 import styles from  "./button.module.css";
-import globals from "../../globals.css";
-
 
 
 function RegularButton({text,mode}){
