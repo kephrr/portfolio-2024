@@ -1,5 +1,5 @@
 import {useState} from "react";
-import styles from "@/app/components/utils/button.module.css";
+import styles from "@/app/components/utils/button-basic/button.module.css";
 
 
 function CopyButton(){

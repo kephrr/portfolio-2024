@@ -1,5 +1,5 @@
 import style from "./hero.module.css";
-import RegularButton from "@/app/components/utils/button";
+import RegularButton from "@/app/components/utils/button-basic/button";
 
 
 function Hero(){

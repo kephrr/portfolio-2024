@@ -1,17 +1,16 @@
 .container{
-    width: 80vw;
+    width: 90vw;
     min-height: 50vh;
-    background-color: white;
     box-shadow: 0 20px 9px -43px rgba(0,0,0,0.6);
     border: 1px solid white;
     border-radius: 15px;
-
     display: flex;
+    overflow: hidden;
+    background-color: whitesmoke;
 }
 
 .left{
     flex: 1;
-    background-color: #2196f3;
 }
 .ul{
     display: flex;
@@ -42,10 +41,71 @@
 }
 
 .mid{
-    flex: 2;
-    background-color: slategray;
+    flex: 4;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: -10px 0 59px -55px rgba(0,0,0,0.55);
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero{
+    padding: 1rem;
+    max-height: 160px;
+}
+.hero{
+    display: flex;
+    gap: 20px;
+}
+.hero img{
+    height: 160px;
+    width: auto;
+    border-radius: 10%;
+}
+.label{
+    font-size: .7rem;
+    background-color: #0ebf01;
+    color: white;
+    padding: .2rem .4rem;
+    font-weight: 300;
+}
+.name{
+    font-size: 1.65rem;
+    margin: 10px 0;
+}
+.infos{
+    font-size: .75rem;
+    color: grey;
+    font-weight: 300;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 1rem;
+    margin-bottom: 10px;
+}
+.infos span{
+    color: black;
+    font-weight: normal;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 20px;
+}
+
+.h2{
+    font-size: 1.4rem;
+}
+
+.head{
+    display: flex;
+    justify-content: space-evenly;
 }
 .right{
-    flex: 4;
+    flex: 2;
     background-color: indianred;
 }

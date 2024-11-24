@@ -19,6 +19,9 @@ export default function Home() {
               <Stepper></Stepper>
           </div>
           <div className={styles.center}>
+              <h1>Curricum Vitae</h1>
+          </div>
+          <div className={styles.center}>
               <PresentCard></PresentCard>
           </div>
       </div>

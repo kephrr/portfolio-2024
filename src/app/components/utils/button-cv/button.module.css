@@ -1,0 +1,16 @@
+.filled{
+    color: white;
+    background-color: dodgerblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.outed{
+    color: dodgerblue;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: solid 1px dodgerblue;
+}

@@ -1,8 +1,8 @@
 "use client";
-import RegularButton from "@/app/components/utils/button";
+import RegularButton from "@/app/components/utils/button-basic/button";
 import style from "./header.module.css";
 import globals from "../../globals.css";
-import CopyButton from "@/app/components/utils/copyButton";
+import CopyButton from "@/app/components/utils/button-basic/copyButton";
 
 
 function Header() {
