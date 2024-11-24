@@ -3,6 +3,7 @@ import Header from "@/app/components/header/header";
 import Hero from "@/app/components/hero/hero";
 import Slider from "@/app/components/slider/slider";
 import Stepper from "@/app/components/stepper/stepper";
+import PresentCard from "@/app/components/present-card/present-card";
 
 
 export default function Home() {
@@ -16,6 +17,9 @@ export default function Home() {
           <Slider></Slider>
           <div className={styles.center}>
               <Stepper></Stepper>
+          </div>
+          <div className={styles.center}>
+              <PresentCard></PresentCard>
           </div>
       </div>
   );
